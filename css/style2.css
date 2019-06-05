@@ -1,0 +1,732 @@
+body {
+    font: 15px / 1.4 sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #141414;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    background: #fff url('../img/swirl.png');
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 15px auto;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+section.users-anim {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 3px solid #090f15;
+}
+
+section.users-anim .ua-sky .ua-cloud.ua-cl-one {
+    width: 4.80519481%;
+    height: 10.77586207%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 27.66233766%;
+    bottom: 42.67241379%;
+    -webkit-animation-name: caleft;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 35s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation-name: caleft;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    opacity: 0.2;
+    background-image: url('../img/cloud1.svg');
+}
+
+section.users-anim .ua-sky .ua-cloud.ua-cl-two {
+    width: 5.32467532%;
+    height: 10.34482759%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 40.12987013%;
+    bottom: 40.0862069%;
+    -webkit-animation-name: calefttwo;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation-name: calefttwo;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    opacity: 0.2;
+    background-image: url('../img/cloud2.svg');
+}
+
+section.users-anim .ua-sky .ua-cloud.ua-cl-three {
+    width: 4.80519481%;
+    height: 10.77586207%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 43.11688312%;
+    bottom: 43.53448276%;
+    -webkit-animation-name: caright;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation-name: caright;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    opacity: 0.1;
+    background-image: url('../img/cloud3.svg');
+}
+
+section.users-anim .ua-sky .ua-cloud.ua-cl-four {
+    width: 5.32467532%;
+    height: 11.63793103%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 68.05194805%;
+    bottom: 59.9137931%;
+    -webkit-animation-name: carighttwo;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 35s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation-name: carighttwo;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    opacity: 0.3;
+    background-image: url('../img/cloud4.svg');
+}
+
+section.users-anim .ua-bg .ua-mo {
+    width: 36.36363636%;
+    height: 51.72413793%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url('../img/mountains.svg');
+    bottom: -3px;
+    left: 0px;
+}
+
+section.users-anim .ua-bg .ua-bd1 {
+    width: 11.55844156%;
+    height: 50.43103448%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50.77922078%;
+    background-image: url('../img/building_bg.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-bg .ua-bd2 {
+    width: 12.85714286%;
+    height: 87.06896552%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 74.41558442%;
+    background-image: url('../img/building_bg2.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-car .ua-driver {
+    width: 9.09090909%;
+    height: 18.53448276%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0%;
+    -webkit-animation-name: car;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation-name: car;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-image: url('../img/car.svg');
+    bottom: 0px;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+}
+
+section.users-anim .ua-fplan .ua-la {
+    width: 4.54545455%;
+    height: 21.55172414%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url('../img/lamp.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-fplan .ua-la.ua-la-fst {
+    left: 46.1038961%;
+}
+
+section.users-anim .ua-fplan .ua-la.ua-la-sc {
+    left: 75.45454545%;
+}
+
+section.users-anim .ua-fplan .ua-la.ua-la-th {
+    left: 22.07792208%;
+}
+
+section.users-anim .ua-fplan .ua-b-in {
+    width: 15.06493506%;
+    height: 36.63793103%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5.19480519%;
+    background-image: url('../img/building1.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-fplan .ua-b-sb {
+    width: 15.71428571%;
+    height: 25.86206897%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 29.35064935%;
+    background-image: url('../img/building2.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-fplan .ua-b-ps {
+    width: 20.64935065%;
+    height: 53.01724138%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 51.94805195%;
+    background-image: url('../img/building3.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-fplan .ua-b-co {
+    width: 12.85714286%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 81.16883117%;
+    background-image: url('../img/building4.svg');
+    bottom: -3px;
+}
+
+section.users-anim .ua-smokes {
+    background: #000;
+}
+
+section.users-anim .ua-smokes.ua-one {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 300px;
+    background: #000;
+    left: 51.94805195%;
+    -webkit-animation-name: smoke;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name: smoke;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 49.56896552%;
+    opacity: 0.1;
+}
+
+section.users-anim .ua-smokes.ua-two {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 300px;
+    background: #000;
+    left: 51.2987013%;
+    -webkit-animation-name: smoke;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name: smoke;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 50.86206897%;
+    opacity: 0.1;
+}
+
+section.users-anim .ua-smokes.ua-three {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 300px;
+    background: #000;
+    left: 51.94805195%;
+    -webkit-animation-name: smoke;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name: smoke;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 53.01724138%;
+    opacity: 0.1;
+}
+
+section.users-anim .ua-smokes.ua-four {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 300px;
+    background: #000;
+    left: 51.03896104%;
+    -webkit-animation-name: smoke;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-name: smoke;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 55.60344828%;
+    opacity: 0.1;
+}
+
+.ua-places {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    table-layout: fixed;
+    list-style: none;
+    max-width: 900px;
+    margin: 0rem auto 0rem auto;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.ua-places.text-center {
+    margin: 20px auto;
+    font-size: 1.35em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ua-places.text-center red {
+    color: red;
+}
+
+@keyframes caleft {
+    from {
+        left: 10%;
+    }
+
+    to {
+        left: 88%;
+    }
+}
+
+@-webkit-keyframes caleft {
+    from {
+        left: 10%;
+    }
+
+    to {
+        left: 88%;
+    }
+}
+
+@keyframes calefttwo {
+    from {
+        left: 20%;
+    }
+
+    to {
+        left: 94%;
+    }
+}
+
+@-webkit-keyframes calefttwo {
+    from {
+        left: 20%;
+    }
+
+    to {
+        left: 94%;
+    }
+}
+
+@keyframes caright {
+    from {
+        left: 88%;
+    }
+
+    to {
+        left: 10%;
+    }
+}
+
+@-webkit-keyframes caright {
+    from {
+        left: 88%;
+    }
+
+    to {
+        left: 10%;
+    }
+}
+
+@keyframes carighttwo {
+    from {
+        left: 69%;
+    }
+
+    to {
+        left: 20%;
+    }
+}
+
+@-webkit-keyframes carighttwo {
+    from {
+        left: 69%;
+    }
+
+    to {
+        left: 20%;
+    }
+}
+
+@keyframes car {
+    from {
+        left: -10%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes car {
+    from {
+        left: -10%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes smoke {
+    from {
+        margin-bottom: 0;
+    }
+
+    to {
+        margin-bottom: 20px;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes smoke {
+    from {
+        margin-bottom: 0;
+    }
+
+    to {
+        margin-bottom: 20px;
+        opacity: 0;
+    }
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.social-buttons__button {
+    margin: 10px 5px 0;
+}
+
+.social-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+}
+
+.social-button__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 100%;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.social-button i,
+.social-button svg {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.social-button i {
+    font-size: 32px;
+}
+
+.social-button svg {
+    height: 40%;
+    width: 40%;
+}
+
+.social-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.social-button:focus,
+.social-button:hover {
+    color: #fff;
+}
+
+.social-button:focus::after,
+.social-button:hover::after {
+    width: 100%;
+    height: 100%;
+    margin-left: -50%;
+}
+
+.social-button--telegram {
+    color: #2F9ED5;
+}
+.social-button--vk {
+    color: #2F9ED5;
+}
+
+.social-button--telegram:after {
+    background: #2F9ED5;
+}
+
+.social-button--vk:after {
+    background: #2F9ED5;
+}
+
+.social-button--viber {
+    color: #57518E;
+}
+
+.social-button--viber:after {
+    background: #57518E;
+}
+
+.social-button--whatsapp {
+    color: #25E47D;
+}
+
+.social-button--whatsapp:after {
+    background: #25E47D;
+}
+
+.social-button--discord {
+    color: #728AD5;
+}
+
+.social-button--discord:after {
+    background: #728AD5;
+}
+
+.social-button--skype {
+    color: #57A2D7;
+}
+
+.social-button--skype:after {
+    background: #57A2D7;
+}
+
+.qr-code img {
+    width: 150px;
+    margin: 10px 5px;
+}
+
+/* Adblock  
+------------------------------------------*/ 
+.no-adb-1 { 
+  padding: 5px; 
+  background:#fff; 
+  border: 1px dashed #ff0000;  
+  font-size: 115%; line-height: 1.5;  
+  text-align:center; 
+  color:#555; 
+}
+
+/* Адблок*/
+
+#mdl_ctnr{
+display: none;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,.8);
+text-align: center}
+ 
+#mdl_ctnr:after {
+display: inline-block;
+height: 100%;
+width: 0;
+vertical-align: middle;
+content: '';}
+ 
+ 
+#mdl_adb{
+display: inline-block;
+position: relative;
+vertical-align: middle
+text-align:center;
+font-size:16px;
+line-height:16px;
+background:#E92C32;
+z-index:9999;
+width:300px;
+padding:40px 10px 10px;
+color:#fff;}
+  
+#mdl_adb h3{
+font-weight:bold;
+font-size:20px;
+margin-bottom:10px;
+}
+ 
+#mdl_adb a{
+color:#fff;
+text-decoration:underline;
+display:block;
+padding:5px 0;
+margin:10px 0;
+font-weight:bold;}
+ 
+.msg_close{
+display:block;
+position:absolute;
+background:#292C33;
+top:0;left:140px;
+line-height:25px;
+font-weight:bold;
+width:50px;
+height:25px;
+text-align:center;
+color:#fff;
+cursor:pointer;
+-webkit-border-bottom-left-radius: 50px;
+-webkit-border-bottom-right-radius: 50px;
+-moz-border-radius-bottomleft: 50px;
+-moz-border-radius-bottomright: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;}
+.msg_close:hover{
+background:#fc0;
+color:#000;}
+.fadeIn{
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn; 
+     animation-duration: 0.4s; 
+    -webkit-animation-duration: 0.4s;
+     animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+     visibility: visible !important; 
+}
+  
+@keyframes fadeIn {
+    0% {transform: scale(0.7);opacity: 0.5;}
+    80% {transform: scale(1.1);}       
+    100% {transform: scale(1);opacity: 1;}       
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {-webkit-transform: scale(0.7);opacity: 0.5;}
+    80% {-webkit-transform: scale(1.1);}       
+    100% {-webkit-transform: scale(1);opacity: 1;}       
+}
+
+/*Загрузка*/
+
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #9A12B3;
+z-index: 30;}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:#fff;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+ 
+#p_prldr .svg_anm {
+position: absolute;
+width: 41px;
+height: 41px;
+background: url(/i/oval.svg) center center no-repeat;
+background-size:41px;    
+margin: -16px 0 0 -16px;}
